@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+    margin: 0px;
+}
+
+body {
+    background-image: url(files/images/dark.webp);
+    font-family: "Poor Story";
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #483f59 ;
+    height: 5.5rem;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.navbar  {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar  li {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 14px;
+    background-color: #a88dc7;
+    color: black;
+}
+
+.buttonss{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.buttonss li {
+    box-shadow: 10px 10px black;
+}
+
+.buttonss li a {
+    text-decoration: none;
+}
+
+.buttonss li:hover{
+    background-color: #daa2ff;
+}
+
+.mode {
+    padding: 17px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: #a88dc7;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    border-radius: 24px;
+    box-shadow: 10px 10px black;
+}
+
+.mainINFO{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: smooth 0.75s;
+}
+
+.mainINFO img {
+    height: 15rem;
+    width: 15rem;
+    margin: 4rem;
+    border: 2px solid purple;
+    border-radius: 162px;
+}
+
+.mainINFO div{
+    color: white;
+    font-size: 3rem;
+    margin: 2rem;
+    width: 47rem;
+    text-shadow: 3px 4px black;
+}
+
+.centreINFO {
+    display: flex;
+    justify-content: center;
+}
+.centreINFO p {
+    color: white;
+    font-size: 4rem;
+    margin: 2rem;
+    width: 58rem;
+    text-shadow: 3px 4px black;
+    text-align: center;
+}
+.sometxt{
+    margin-top: 8%;
+}
+
+@keyframes Smooth {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+
+    }
+    to {
+        opacity: 1;
+        transform: rotateX('0deg');
+    }
+}
